@@ -1,0 +1,13 @@
+.host{
+    color: aqua;
+}
+svg path {
+    fill: rgb(1, 42, 1);
+    stroke:rgb(169, 83, 51);
+}
+svg path:hover{
+    fill: rgb(225, 193, 133);
+    transition: 0.4s;
+    cursor:pointer;
+    stroke:black;
+}
