@@ -6,6 +6,6 @@ import {Component} from '@angular/core';
   styleUrls: ['./svg.component.scss'],
 })
 export class SvgComponent {
-  fillColor = 'rgb(255, 0, 0)';
+  
   
 }

@@ -1,0 +1,812 @@
+[
+    {
+      "page": 1,
+      "pages": 341,
+      "per_page": 50,
+      "total": 17024,
+      "sourceid": "2",
+      "lastupdated": "2024-03-28"
+    },
+    [
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2023",
+        "value": null,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2022",
+        "value": 720859132,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2021",
+        "value": 702977106,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2020",
+        "value": 685112979,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2019",
+        "value": 667242986,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2018",
+        "value": 649757148,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2017",
+        "value": 632746570,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2016",
+        "value": 616377605,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2015",
+        "value": 600008424,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2014",
+        "value": 583651101,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2013",
+        "value": 567892149,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2012",
+        "value": 552530654,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2011",
+        "value": 537792950,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2010",
+        "value": 523459657,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2009",
+        "value": 509410477,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2008",
+        "value": 495748900,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2007",
+        "value": 482406426,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2006",
+        "value": 469508516,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2005",
+        "value": 457153837,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2004",
+        "value": 445281555,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2003",
+        "value": 433807484,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2002",
+        "value": 422741118,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2001",
+        "value": 412001885,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "2000",
+        "value": 401600588,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1999",
+        "value": 391486231,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1998",
+        "value": 381715600,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1997",
+        "value": 372352230,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1996",
+        "value": 362985802,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1995",
+        "value": 353466601,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1994",
+        "value": 344418362,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1993",
+        "value": 335625136,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1992",
+        "value": 326933522,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1991",
+        "value": 318544083,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1990",
+        "value": 309890664,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1989",
+        "value": 301124880,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1988",
+        "value": 292795186,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1987",
+        "value": 284490394,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1986",
+        "value": 276035920,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1985",
+        "value": 267938123,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1984",
+        "value": 260209149,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1983",
+        "value": 252779730,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1982",
+        "value": 245386717,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1981",
+        "value": 237937461,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1980",
+        "value": 230967858,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1979",
+        "value": 224315978,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1978",
+        "value": 217481420,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1977",
+        "value": 211120911,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1976",
+        "value": 205202669,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1975",
+        "value": 199284304,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "SP.POP.TOTL",
+          "value": "Population, total"
+        },
+        "country": {
+          "id": "ZH",
+          "value": "Africa Eastern and Southern"
+        },
+        "countryiso3code": "AFE",
+        "date": "1974",
+        "value": 193512956,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      }
+    ]
+  ]
