@@ -13,11 +13,11 @@
 
     <div class="column1">
       <h1>Interactive World Map</h1>
-      <app-svg></app-svg>
+      <app-svg (send)="sendData($event)"></app-svg>
       
     </div>
     <div class="column2">
-      <app-info-component></app-info-component>
+      <app-info-component [countryCode]="countryC"></app-info-component>
     </div>
 
   </div>

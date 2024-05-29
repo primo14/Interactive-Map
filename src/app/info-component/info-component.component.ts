@@ -1,12 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-info-component',
   standalone: true,
-  imports: [],
   templateUrl: './info-component.component.html',
   styleUrl: './info-component.component.scss'
 })
-export class InfoComponent {
 
+export class InfoComponent {
+  constructor() { } 
+  @Input({required: true}) countryCode!: string;
+  
 }
