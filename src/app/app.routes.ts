@@ -1,15 +1,25 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 import { Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 import { SvgComponent } from './svg/svg.component';
 import { InfoComponent } from './info-component/info-component.component';
-import { CountryDirective } from './directives/country.directive';
-import { NgModule } from '@angular/core';
-import { AppComponent } from './app.component';
+import { DOCUMENT } from '@angular/common';
 
 
 export const routes: Routes = [
     { path: 'svg', component: SvgComponent },
     { path: 'info', component: InfoComponent },
-    { path: 'country', component: CountryDirective }
+    { path: '', component: AppComponent }
 ];
 
-
+@NgModule({
+   
+    imports: [
+        BrowserModule,
+        RouterModule.forRoot(routes),
+    ]
+})  
+export class AppModule { }

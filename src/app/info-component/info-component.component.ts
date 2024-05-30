@@ -10,6 +10,12 @@ import { Component, Input } from '@angular/core';
 
 export class InfoComponent {
   constructor() { } 
-  @Input({required: true}) countryCode!: string;
-  
+  @Input({required: true}) Latitude!: string;
+  @Input({required: true}) countryName!: string;
+  @Input({required: true}) countryCity!: string;
+  @Input({required: true}) Region!: string;
+  @Input({required: true}) IncomeLevel!: string;
+  @Input({required: true}) Longitude!: string;
+
+
 }

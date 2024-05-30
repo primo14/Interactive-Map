@@ -20,6 +20,7 @@ export class SvgComponent {
 
   ngAfterViewInit() {
     let country = document.querySelectorAll<SVGElement>('path'); // gets an array of all of the paths in the DOM
+    country
     let current = ''; 
     country.forEach((selected) => {      // for each svg path
       
