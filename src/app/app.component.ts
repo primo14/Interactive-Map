@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, output, Output } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { SvgComponent } from './svg/svg.component';
+import { SvgModule } from './svg/svg.module';
 import { InfoComponent} from './info-component/info-component.component';
 import { HttpClient } from '@angular/common/http';
 
@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,SvgComponent,InfoComponent],
+  imports: [RouterOutlet,SvgModule,InfoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

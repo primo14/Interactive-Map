@@ -1,36 +1,25 @@
-import { Input, Output, Component, EventEmitter } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
-
-
-
-
+import { Component, AfterViewInit, Output, EventEmitter, Renderer2, ElementRef } from '@angular/core';
 
 @Component({
-  standalone: true,
   selector: 'app-svg',
   templateUrl: './svg.component.html',
-  styleUrls: ['./svg.component.scss'],
+  styleUrls: ['./svg.component.scss']
 })
+export class SvgComponent implements AfterViewInit {
 
+  @Output() send = new EventEmitter<string>();
 
+  constructor(private renderer: Renderer2, private el: ElementRef) {}
 
-export class SvgComponent {
-  
-  @Output() send= new EventEmitter();
+  ngAfterViewInit(): void {
+    const country = Array.from(this.el.nativeElement.querySelectorAll('path')) as SVGElement[]; // convert NodeList to array
 
-  ngAfterViewInit() {
-    let country = document.querySelectorAll<SVGElement>('path'); // gets an array of all of the paths in the DOM
-    country
-    let current = ''; 
-    country.forEach((selected) => {      // for each svg path
-      
-      selected.addEventListener('mouseover',  () => {
-      current = selected.id;
-      this.send.emit(current); 
-      
+    let current = '';
+    country.forEach((selected) => { // for each svg path
+      this.renderer.listen(selected, 'mouseover', () => {
+        current = selected.id;
+        this.send.emit(current);
       });
     });
-    
   }
-
 }
