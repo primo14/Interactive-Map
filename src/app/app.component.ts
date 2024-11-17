@@ -1,15 +1,13 @@
-import { Component, EventEmitter, Input, output, Output } from '@angular/core';
+import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 import { RouterOutlet } from '@angular/router';
 import { SvgModule } from './svg/svg.module';
-import { InfoComponent} from './info-component/info-component.component';
-import { HttpClient } from '@angular/common/http';
-
-
+import { InfoComponent } from './info-component/info-component.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,SvgModule,InfoComponent],
+  imports: [RouterOutlet, SvgModule, InfoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -26,10 +24,9 @@ export class AppComponent {
   Latitude = " ";
   region = " ";
   
-
   sendData(countryCode: string) {
     this.countryC = countryCode;
-    this.http.get<any>('/api/v2/en/country/' + countryCode + "?format=json")
+    this.http.get<any>('https://api.worldbank.org/v2/en/country/' + countryCode + "?format=json")
       .subscribe((data) => {
         this.countryN = data[1][0].name;
         this.region = data[1][0].region.value;
@@ -38,7 +35,5 @@ export class AppComponent {
         this.Longitude = data[1][0].longitude;
         this.Latitude = data[1][0].latitude;
       });
-  
-
   }
 }
