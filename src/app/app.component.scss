@@ -1,26 +1,17 @@
-.host{
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .content{
+    align-items: center;
+}
+app-svg{
+    position: absolute;
+   width: 100%;
+   margin-left:15%;
+   margin-top:5%;
     
-    justify-content:space-evenly;
-    display:flex;
-    flex-direction: row;
 }
 h1{
-    margin-left:60vh;
-    
-}
-
-.column1{
-   
-    position:relative;
-}
-
-.column2{
-    padding-left:3vh;
-    padding-right:10vh;
-    min-width: 20vh;
-    position:relative;
-    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 100%;
+    position:absolute;
 }
