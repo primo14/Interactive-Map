@@ -14,7 +14,7 @@ interface DialogData {
 @Component({
   selector: 'app-info-component',
   standalone: true,
-  template:"<app-info-component>{{input.countryC}},{{input.countryName}},{{input.capital}},{{input.Longitude}},{{input.latitude}},{{input.region}}",
+  template:"info-component.component.html",
   styleUrl: './info-component.component.scss'
 })
 
