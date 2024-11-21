@@ -7,9 +7,9 @@ import { InfoComponent } from './info-component/info-component.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ SvgModule, InfoComponent],
+  imports: [RouterOutlet, SvgModule, InfoComponent],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'd280_app';
