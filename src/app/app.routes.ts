@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { SvgComponent } from './svg/svg.component';
 import { InfoComponent } from './info-component/info-component.component';
 import { DOCUMENT } from '@angular/common';
-import { MatDialogModule } from '@angular/material/dialog';
 
 
 export const routes: Routes = [
@@ -20,7 +19,7 @@ export const routes: Routes = [
    
     imports: [
         BrowserModule,
-        RouterModule.forRoot(routes),MatDialogModule
+        RouterModule.forRoot(routes),
     ]
 })  
 export class AppModule { }

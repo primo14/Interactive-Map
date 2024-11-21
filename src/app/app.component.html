@@ -11,12 +11,21 @@
 <main class="main">
   <div class="content">
 
-    
+    <div class="column1">
       <h1>Interactive World Map</h1>
-      <app-svg (send)="sendData($event)" (mouseleave) ="closePopup()"></app-svg>
+      <app-svg (send)="sendData($event)"></app-svg>
       
-    
-   
+    </div>
+    <div class="column2">
+      <app-info-component 
+      [Longitude]="Longitude"
+      [countryName]="countryN"
+      [countryCity]="capital"
+      [Region]="region"
+      [Latitude]= "Latitude"
+      [IncomeLevel]= "incomeLevel"
+      ></app-info-component>
+    </div>
 
   </div>
 </main>
