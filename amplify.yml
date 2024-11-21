@@ -3,9 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
+        - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+        - export NVM_DIR="$HOME/.nvm"
+        - [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
         - nvm install 18.19.1
         - nvm use 18.19.1
         - npm ci
+        - export API_KEY=$(aws ssm get-parameter --name "/d280_app/api-key" --with-decryption --query "Parameter.Value" --output text)
+        - export API_ENDPOINT=$(aws ssm get-parameter --name "/d280_app/api-endpoint" --with-decryption --query "Parameter.Value" --output text)
     build:
       commands:
         - npm run build
