@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-info-component',
   standalone: true,
   templateUrl: './info-component.component.html',
-  styleUrl: './info-component.component.scss'
+  styleUrls: ['./info-component.component.scss']
 })
 
 export class InfoComponent {
