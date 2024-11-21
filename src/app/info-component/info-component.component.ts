@@ -1,21 +1,28 @@
-import { Component, Input } from '@angular/core';
+import { Component, inject, Inject, Input, OnInit } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+
+interface DialogData {
+  countryC: string;
+  countryN: string;
+  capital: string;
+  Longitude: string;
+  Latitude: string;
+  region: string;
+}
 
 
 @Component({
   selector: 'app-info-component',
   standalone: true,
-  templateUrl: './info-component.component.html',
+  template:"<app-info-component>{{input.countryC}},{{input.countryName}},{{input.capital}},{{input.Longitude}},{{input.latitude}},{{input.region}}",
   styleUrl: './info-component.component.scss'
 })
 
-export class InfoComponent {
-  constructor() { } 
-  @Input({required: true}) Latitude!: string;
-  @Input({required: true}) countryName!: string;
-  @Input({required: true}) countryCity!: string;
-  @Input({required: true}) Region!: string;
-  @Input({required: true}) IncomeLevel!: string;
-  @Input({required: true}) Longitude!: string;
+export class InfoComponent implements OnInit {
+  input:any;
+  constructor(@Inject (MAT_DIALOG_DATA) public data:DialogData,public dialogRef: MatDialogRef<InfoComponent>) { }
 
-
+ngOnInit(): void {
+  this.input = this.data;
+}
 }
