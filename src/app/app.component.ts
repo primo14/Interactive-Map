@@ -28,17 +28,16 @@ export class AppComponent {
   
 
   sendData(countryCode: string) {
+    let temp = '';
     this.countryC = countryCode;
-    this.http.get<any>('/api/v2/en/country/' + countryCode + "?format=json")
-      .subscribe((data) => {
-        this.countryN = data[1][0].name;
-        this.region = data[1][0].region.value;
-        this.capital = data[1][0].capitalCity;
-        this.incomeLevel = data[1][0].incomeLevel.value;
-        this.Longitude = data[1][0].longitude;
-        this.Latitude = data[1][0].latitude;
-      });
-  
+    let data = this.http.get<any>('http://api.worldbank.org/v2/en/country/' + countryCode + "?format=json").subscribe((data) => {
+    this.countryN =data[1][0].name;
+    this.region = data [1][0].region.value;
+    this.capital = data[1][0].capitalCity;  
+    this.incomeLevel = data[1][0].incomeLevel.value;
+    this.Longitude = data[1][0].longitude;
+    this.Latitude = data[1][0].latitude;
+  });
 
   }
 }

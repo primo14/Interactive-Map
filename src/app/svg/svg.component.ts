@@ -1,17 +1,17 @@
-import { Component,  Output, EventEmitter, Renderer2, ElementRef } from '@angular/core';
+import { Component, AfterViewInit, Output, EventEmitter, Renderer2, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-svg',
   templateUrl: './svg.component.html',
   styleUrls: ['./svg.component.scss']
 })
-export class SvgComponent  {
+export class SvgComponent implements AfterViewInit {
 
   @Output() send = new EventEmitter<string>();
 
   constructor(private renderer: Renderer2, private el: ElementRef) {}
 
-  ngOnInit(): void {
+  ngAfterViewInit(): void {
     const country = Array.from(this.el.nativeElement.querySelectorAll('path')) as SVGElement[]; // convert NodeList to array
 
     let current = '';
@@ -21,5 +21,5 @@ export class SvgComponent  {
         this.send.emit(current);
       });
     });
-  } 
+  }
 }
