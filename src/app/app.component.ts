@@ -52,7 +52,7 @@ export class AppComponent {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.width = '300px';
     dialogConfig.height = '210px';
-    dialogConfig.position = { top: this.MouseY + 'px', left: this.MouseX + 'px' };
+    dialogConfig.position = { top:"0px" , left: "0px" };
     dialogConfig.data = {
       countryC: this.countryC,
       capital: this.capital,
