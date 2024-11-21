@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "d280-app": {
+    "d280_app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -71,10 +71,10 @@
           
           "configurations": {
             "production": {
-              "buildTarget": "d280-app:build:production"
+              "buildTarget": "d280_app:build:production"
             },
             "development": {
-              "buildTarget": "d280-app:build:development"
+              "buildTarget": "d280_app:build:development"
             }
           },
           "defaultConfiguration": "development"
