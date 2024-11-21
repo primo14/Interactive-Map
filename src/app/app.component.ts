@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { RouterOutlet } from '@angular/router';
 import { SvgModule } from './svg/svg.module';
 import { InfoComponent } from './info-component/info-component.component';
 
