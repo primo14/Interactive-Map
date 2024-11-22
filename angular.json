@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "d280-app": {
+    "d280_app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -28,7 +28,8 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "public",
+                "output": "/"
               }
             ],
             "styles": [
