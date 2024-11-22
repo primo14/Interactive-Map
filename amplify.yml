@@ -15,7 +15,7 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: dist/d280_app
+    baseDirectory: dist/d280_app/src
     files:
       - '**/*'
   cache:
