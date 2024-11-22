@@ -2,15 +2,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 span{
-    color:black
+    color: rgb(239, 224, 151);
+}
+h3{
+    color: rgb(239, 224, 151);
 }
 .info-box{
-    background-color: rgba(35, 71, 41, 0.588);
-    border-style:groove;
-    border-color: black;
-    position:fixed;
-    padding:3vh;
-    margin-right:40vh;
-    min-width: 30vh;
-    color:rgb(239, 224, 151);
+    background-color: rgb(1, 42, 1);
+  border-radius: 25px;
+  position: fixed;
+  bottom: 3vh; /* Adjust as needed */
+  right: 5vh; /* Adjust as needed */
+  padding: 3vh;
+  min-width: 30vh;
+  color:gray;
+  z-index: 10;
 }

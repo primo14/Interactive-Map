@@ -6,10 +6,15 @@
     justify-content:space-evenly;
     display:flex;
     flex-direction: row;
+    background-color:aliceblue;
 }
 h1{
-    margin-left:60vh;
-    
+    margin-left:55vh;
+    top:40px;
+    position:relative;
+    z-index: 5;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(1, 42, 1);
 }
 
 .column1{
