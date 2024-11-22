@@ -25,3 +25,66 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## AWS Amplify Deployment
+
+### Prerequisites
+
+- AWS account
+- AWS CLI installed and configured
+- Amplify CLI installed (`npm install -g @aws-amplify/cli`)
+
+### Initialize Amplify
+
+1. Run `amplify init` to initialize a new Amplify project.
+2. Follow the prompts to configure your project.
+
+### Add Hosting
+
+1. Run `amplify add hosting`.
+2. Choose `Hosting with Amplify Console (Managed hosting with custom domains, Continuous deployment)`.
+
+### Deploy
+
+1. Run `amplify publish` to deploy your application to AWS Amplify.
+
+### amplify.yml
+
+Ensure your `amplify.yml` file is configured correctly for the build and deployment process:
+
+```yml
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+        - export NVM_DIR="$HOME/.nvm"
+        - '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"'
+        - nvm install 18.19.1
+        - nvm use 18.19.1
+        - npm ci
+        - export API_KEY=$(aws ssm get-parameter --name "/d280_app/api-key" --with-decryption --query "Parameter.Value" --output text)
+        - export API_ENDPOINT=$(aws ssm get-parameter --name "/d280_app/api-endpoint" --with-decryption --query "Parameter.Value" --output text)
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: dist/d280_app/browser
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+```
+### Environment Variables
+Ensure your environment variables are set correctly in the Amplify Console under App settings > Environment variables.
+
+### Troubleshooting
+If you encounter issues with the deployment, check the build logs in the Amplify Console for more details.
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+This [README.md] file provides an overview of the project, development instructions, and detailed steps for deploying the application using AWS Amplify. Adjust the content as needed to fit your specific project requirements.
