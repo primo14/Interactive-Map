@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
 
+
+##Explore the world map by hovering over a country!
+
+<img width="1643" alt="Screenshot 2024-12-09 at 3 27 13 PM" src="https://github.com/user-attachments/assets/3a8ace9e-059f-4240-915c-09309398c3d9">
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
